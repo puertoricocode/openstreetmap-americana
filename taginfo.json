@@ -4573,6 +4573,14 @@
     },
     {
       "key": "network",
+      "value": "US:WV:County",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
       "value": "US:WY",
       "object_types": [
         "relation"
