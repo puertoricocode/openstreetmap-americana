@@ -15,7 +15,7 @@
     "sprites": "mkdir -p dist/sprites && npx spritezero dist/sprites/sprite@2x icons/ --retina && npx spritezero dist/sprites/sprite icons/",
     "status_map": "npm run sprites && node scripts/status_map.js",
     "taginfo": "npm run sprites && node scripts/taginfo.js",
-    "start": "npm run clean && npm run sprites && npx parcel index.html --open --port 1776",
+    "start": "npm run clean && npm run sprites && npx parcel index.html sdf/* --open --port 1776",
     "build": "npm run clean && npm run sprites && npx parcel build index.html --public-url ./ && npm run taginfo && npm run status_map"
   },
   "dependencies": {

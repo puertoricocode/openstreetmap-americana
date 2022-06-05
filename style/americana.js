@@ -13,6 +13,7 @@ import * as lyrHighwayShield from "./layer/highway_shield.js";
 import * as lyrOneway from "./layer/oneway.js";
 import * as lyrPark from "./layer/park.js";
 import * as lyrPlace from "./layer/place.js";
+import * as lyrPoi from "./layer/poi.js";
 import * as lyrRoad from "./layer/road.js";
 import * as lyrRoadLabel from "./layer/road_label.js";
 import * as lyrWater from "./layer/water.js";
@@ -428,7 +429,9 @@ americanaLayers.push(
   lyrPlace.country3,
   lyrPlace.country2,
   lyrPlace.country1,
-  lyrPlace.continent
+  lyrPlace.continent,
+
+  lyrPoi.poi
 );
 
 var getUrl = window.location;
@@ -466,6 +469,12 @@ var map = (window.map = new maplibregl.Map({
 
 map.on("styledata", function () {
   ShieldDef.loadShields(map.style.imageManager.images);
+});
+
+map.loadImage('./sdf/martini_glass.png', (error, image) => {
+  if (error) throw error;
+  // add image to the active style and make it SDF-enabled
+  map.addImage('martini-glass', image, { sdf: true });
 });
 
 map.on("styleimagemissing", function (e) {
