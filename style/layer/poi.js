@@ -12,6 +12,8 @@ const poiIcon = [
   ["get", "class"],
   "bar",
   "martini-glass",
+  "beer",
+  "martini-glass",
   "dot_city",
 ];
 
