@@ -3619,14 +3619,6 @@
     },
     {
       "key": "network",
-      "value": "US:PA:Belt",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields."
-    },
-    {
-      "key": "network",
       "value": "US:RI",
       "object_types": [
         "relation"
@@ -5940,6 +5932,14 @@
     {
       "key": "network",
       "value": "NL:N",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "US:PA:Belt",
       "object_types": [
         "relation"
       ],
