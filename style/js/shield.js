@@ -15,7 +15,11 @@ function loadShield(ctx, shield, bannerCount) {
 
   drawCtx.putImageData(imgData, 0, 0);
 
-  ctx.drawImage(drawCtx.canvas, 0, bannerCount * ShieldDef.bannerSizeH);
+  ctx.drawImage(
+    drawCtx.canvas,
+    0,
+    bannerCount * ShieldDef.bannerSizeH + ShieldDef.topPadding
+  );
 }
 
 function drawBannerPart(ctx, network, drawFunc) {
@@ -35,7 +39,10 @@ function drawBannerPart(ctx, network, drawFunc) {
 function compoundShieldSize(dimension, bannerCount) {
   return {
     width: dimension.width,
-    height: dimension.height + bannerCount * ShieldDef.bannerSizeH,
+    height:
+      dimension.height +
+      bannerCount * ShieldDef.bannerSizeH +
+      ShieldDef.topPadding,
   };
 }
 
@@ -138,7 +145,7 @@ function drawShield(ctx, shieldDef, routeDef) {
     ctx.drawImage(
       drawnShieldCtx.canvas,
       0,
-      bannerCount * ShieldDef.bannerSizeH
+      bannerCount * ShieldDef.bannerSizeH + ShieldDef.topPadding
     );
 
     shieldBounds = {
@@ -173,7 +180,8 @@ function drawShield(ctx, shieldDef, routeDef) {
     shieldBounds
   );
 
-  textLayout.yBaseline += bannerCount * ShieldDef.bannerSizeH;
+  textLayout.yBaseline +=
+    bannerCount * ShieldDef.bannerSizeH + ShieldDef.topPadding;
 
   ctx.fillStyle = textColor(shieldDef);
   ShieldText.drawShieldText(ctx, routeDef.ref, textLayout);
@@ -215,6 +223,13 @@ function getShieldDef(routeDef) {
   if (shieldDef == null) {
     //Default to a plain white rectangle with black outline and text
     return isValidRef(routeDef.ref) ? ShieldDef.shields["default"] : null;
+  }
+
+  if (shieldDef.overrideByRef) {
+    shieldDef = {
+      ...shieldDef,
+      ...shieldDef.overrideByRef[routeDef.ref],
+    };
   }
 
   //Determine whether a route without a ref gets drawn
@@ -259,7 +274,7 @@ function generateShieldCtx(id) {
   // Swap black with a different color for certain shields.
   // The secondary canvas is necessary here for some reason. Without it,
   // the recolored shield gets an opaque instead of transparent background.
-  var colorLighten = ShieldDef.shieldLighten(shieldDef, routeDef);
+  var colorLighten = shieldDef.colorLighten;
 
   // Handle special case for Kentucky
   if (routeDef.ref === "" && shieldDef.refsByWayName) {
