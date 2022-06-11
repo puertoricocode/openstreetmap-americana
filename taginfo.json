@@ -5872,6 +5872,38 @@
     },
     {
       "key": "network",
+      "value": "ba:Autoceste",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "ba:Magistralne ceste",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "bg:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "by:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
       "value": "CZ:national",
       "object_types": [
         "relation"
@@ -5888,12 +5920,61 @@
     },
     {
       "key": "network",
-      "value": "IT:A-road",
+      "value": "dk:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "ee:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "ES:A-road",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "fi:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "FR:A-road",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "GR:national",
       "object_types": [
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_it_2.svg"
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_hexagon_wide_green.svg"
+    },
+    {
+      "key": "network",
+      "value": "GR:motorway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_hexagon_wide_green.svg"
     },
     {
       "key": "network",
@@ -5906,7 +5987,16 @@
     },
     {
       "key": "network",
-      "value": "sk:national",
+      "value": "IT:A-road",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_it_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "lt:national",
       "object_types": [
         "relation"
       ],
@@ -5914,12 +6004,45 @@
     },
     {
       "key": "network",
-      "value": "SI:AC",
+      "value": "lv:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "lv:regional",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "md:national",
       "object_types": [
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_si_2.svg"
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_ro_trunk_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "ME:Magistralni putevi",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "mk:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_hexagon_wide_green.svg"
     },
     {
       "key": "network",
@@ -5936,6 +6059,159 @@
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "NL:S:Amsterdam",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
+    },
+    {
+      "key": "network",
+      "value": "NL:S:Den Haag",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
+    },
+    {
+      "key": "network",
+      "value": "NL:S:Rotterdam",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
+    },
+    {
+      "key": "network",
+      "value": "NL:S:Nijmegen",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
+    },
+    {
+      "key": "network",
+      "value": "NL:S:Parkstad",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
+    },
+    {
+      "key": "network",
+      "value": "NL:S:Zaanstad",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
+    },
+    {
+      "key": "network",
+      "value": "pl:motorways",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "pl:expressways",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "pl:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "PT:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "PT:regional",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "RO:A",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "RS:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_hexagon_wide_green.svg"
+    },
+    {
+      "key": "network",
+      "value": "ru:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "SI:AC",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_hexagon_wide_green.svg"
+    },
+    {
+      "key": "network",
+      "value": "sk:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "ua:international",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "XK:motorway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_hexagon_wide_green.svg"
     },
     {
       "key": "network",
