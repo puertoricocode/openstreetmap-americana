@@ -477,11 +477,13 @@ map.on("styledata", function () {
   ShieldDef.loadShields(map.style.imageManager.images);
 });
 
-map.loadImage('./sdf/martini_glass.png', (error, image) => {
-  if (error) throw error;
-  // add image to the active style and make it SDF-enabled
-  map.addImage('martini-glass', image, { sdf: true });
-});
+["hospital_cross", "martini_glass"].forEach((icon) =>
+  map.loadImage(`./sdf/${icon}.png`, (error, image) => {
+    if (error) throw error;
+    // add image to the active style and make it SDF-enabled
+    map.addImage(icon.replace("_", "-"), image, { sdf: true });
+  })
+);
 
 map.on("styleimagemissing", function (e) {
   Shield.missingIconHandler(map, e);

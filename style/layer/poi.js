@@ -1,12 +1,5 @@
 import * as label from "../constants/label.js";
 
-const labelPaint = {
-  "text-color": "#444",
-  "text-halo-color": "rgb(255,255,255)",
-  "text-halo-width": 2,
-  "text-halo-blur": 0.5,
-};
-
 const poiIcon = [
   "match",
   ["get", "class"],
@@ -14,30 +7,46 @@ const poiIcon = [
   "martini-glass",
   "beer",
   "martini-glass",
+  "hospital",
+  "hospital-cross",
   "dot_city",
 ];
+
+const poiFilter = [
+  "any",
+  ["==", ["get", "class"], "bar"],
+  ["==", ["get", "class"], "beer"],
+  ["==", ["get", "class"], "hospital"],
+];
+
+const iconColor = [
+  "match",
+  ["get", "class"],
+  "bar",
+  "#0000dd",
+  "beer",
+  "#0000dd",
+  "hospital",
+  "#ff0000",
+  "#000000",
+];
+
+const labelPaint = {
+  "text-halo-color": "#ffffff",
+  "icon-halo-color": "#ffffff",
+  "text-halo-width": 1.5,
+  "icon-halo-width": 1.5,
+  "text-halo-blur": 1,
+  "icon-halo-blur": 1,
+  "text-color": iconColor,
+  "icon-color": iconColor,
+};
 
 export const poi = {
   id: "poi",
   type: "symbol",
   paint: labelPaint,
-  // filter: [
-  //   "all",
-  //   ["==", ["get", "class"], "village"],
-  //   [
-  //     "step",
-  //     ["zoom"],
-  //     ["<=", ["get", "rank"], 2],
-  //     6,
-  //     ["<=", ["get", "rank"], 4],
-  //     7,
-  //     ["<=", ["get", "rank"], 5],
-  //     8,
-  //     ["<=", ["get", "rank"], 9],
-  //     10,
-  //     [">=", ["get", "rank"], 1],
-  //   ],
-  // ],
+  filter: poiFilter,
   layout: {
     "text-font": ["Metropolis Bold"],
     "text-size": {
@@ -49,14 +58,7 @@ export const poi = {
       ],
     },
     "icon-image": poiIcon,
-    "icon-size": {
-      base: 1.0,
-      stops: [
-        [4, 0.12],
-        [7, 0.25],
-        [11, 0.5],
-      ],
-    },
+    "icon-size": 1,
     "text-field": label.name_en,
     "text-anchor": "bottom",
     "text-variable-anchor": [
@@ -67,7 +69,7 @@ export const poi = {
       "left",
     ],
     "text-justify": "auto",
-    "text-radial-offset": 0.5,
+    "text-radial-offset": 0.8,
     "icon-optional": false,
     "text-max-width": 8,
     "icon-padding": 0,
@@ -75,8 +77,6 @@ export const poi = {
     "icon-allow-overlap": false,
   },
   source: "openmaptiles",
-  minzoom: 14,
-  // maxzoom: 14,
+  minzoom: 15,
   "source-layer": "poi",
 };
-
