@@ -11383,15 +11383,6 @@
     },
     {
       "key": "network",
-      "value": "NL:S:Rotterdam",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
-    },
-    {
-      "key": "network",
       "value": "NL:S:Nijmegen",
       "object_types": [
         "relation"
@@ -11410,12 +11401,78 @@
     },
     {
       "key": "network",
+      "value": "NL:S:Rotterdam",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
+    },
+    {
+      "key": "network",
       "value": "NL:S:Zaanstad",
       "object_types": [
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields.",
       "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
+    },
+    {
+      "key": "network",
+      "value": "NL:binnenstedelijke_ring",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_nl_city.svg"
+    },
+    {
+      "key": "network",
+      "value": "NL:R:Ommen",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "NL:R:Schouwen",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "NL:R:Sluis",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "NL:R:Spaarnwoude",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "NL:R:Voorthuizen",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "NL:R:IJmuiden",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
     },
     {
       "key": "network",
