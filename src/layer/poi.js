@@ -1,4 +1,5 @@
 import * as label from "../constants/label.js";
+import * as Color from "../constants/color.js";
 
 const poiIcon = [
   "match",
@@ -9,7 +10,7 @@ const poiIcon = [
   "martini-glass",
   "hospital",
   "hospital-cross",
-  "dot_city",
+  "", //TODO add icon for generic POI
 ];
 
 const poiFilter = [
@@ -22,13 +23,11 @@ const poiFilter = [
 const iconColor = [
   "match",
   ["get", "class"],
-  "bar",
-  "#0000dd",
-  "beer",
-  "#0000dd",
+  ["bar", "beer"],
+  Color.shields.black,
   "hospital",
-  "#ff0000",
-  "#000000",
+  Color.shields.red,
+  Color.shields.black,
 ];
 
 const labelPaint = {
@@ -48,13 +47,12 @@ export const poi = {
   paint: labelPaint,
   filter: poiFilter,
   layout: {
-    "text-font": ["Metropolis Bold"],
+    "text-font": ["Metropolis Light"],
     "text-size": {
       base: 1.0,
       stops: [
-        [5, 8],
-        [8, 10],
-        [12, 12],
+        [15, 10],
+        [17, 12],
       ],
     },
     "icon-image": poiIcon,
