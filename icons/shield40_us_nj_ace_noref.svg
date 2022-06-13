@@ -1,0 +1,5 @@
+<svg width="20" height="20" viewBox="0 0 18.751 18.751" xmlns="http://www.w3.org/2000/svg">
+ <circle cx="9.375" cy="9.375" fill="#fff" fill-rule="evenodd" stroke-linejoin="round" style="stroke:#003f87;stroke-width:.93755;stroke-miterlimit:4;stroke-dasharray:none" r="8.906"/>
+ <path d="M9.375 4.476c-.728 0-1.426.164-2.056.459a.275.312 0 0 1 .003.041.275.312 0 0 1-.16.283c-.206 2.649-.33 5.484-.662 8.066a4.877 4.877 0 0 0 2.875.942c2.641 0 4.896-2.157 4.896-4.895 0-2.738-2.254-4.896-4.896-4.896zm-2.53.712A4.89 4.89 0 0 0 4.48 9.372c0 1.184.423 2.26 1.115 3.1l1.45-7.183a.275.312 0 0 1-.198-.1zm.213.1-1.093 7.585c.14.136.287.264.442.382.323-2.548.448-5.345.651-7.967z" color="#000" style="isolation:auto;mix-blend-mode:normal;text-decoration-color:#000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal;fill:#003f87"/>
+ <path d="M9.939 11.023c-.943-.354-1.396-.536-3.203.104.154-1.88.297-4.073.424-5.87 4.033-.996 4.302 2.749 6.77 2.121-.076.61-.393 1.714-1.941 1.992.197.612 1.071 2.319 2.037 2.516-2.588 1.563-2.772-.293-4.087-.863z" style="fill:#df4661"/>
+</svg>

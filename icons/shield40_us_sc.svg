@@ -1,0 +1,7 @@
+<svg width="25" height="20" version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+ <rect width="25" height="20" rx="2" ry="2" style="fill:#003f87"/>
+ <use transform="translate(19977 -4790.8) scale(.92938)" width="300" height="240" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="309" xlink:href="#state_outline"/>
+ <rect style="fill:#fff;fill-rule:evenodd;stroke:none" width="23" height="16" x="1" y="3" rx="1" ry="1"/>
+ <path d="m10.636 1-.81.285-.352.608.254.181.291.157.488.853.57.582.305.514.42.553.28.549.19.718.064-.15.668-.621.738-.457.93-.586-.059-.172.928-.91-1.432-1.448-1.441-.025-.278-.422-.138-.158-.55-.006L10.637 1Z" style="fill:none;stroke:#fff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"/>
+ <path d="m10.636 1-.81.285-.352.608.254.181.291.157.488.853.57.582.305.514.42.553.28.549.19.718.064-.15.668-.621.738-.457.93-.586-.059-.172.928-.91-1.432-1.448-1.441-.025-.278-.422-.138-.158-.55-.006L10.637 1Z" style="fill:#003f87;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"/>
+</svg>

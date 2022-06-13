@@ -1,0 +1,5 @@
+<svg width="25" height="20" version="1.0" xmlns="http://www.w3.org/2000/svg">
+ <rect style="fill:#fff;fill-rule:evenodd;stroke:#000" width="24" height="19" x=".5" y=".5" rx="1.5" ry="1.5"/>
+ <path d="M253.215 406.827c0-.69.56-1.25 1.25-1.25h22.522c.69 0 1.25.56 1.25 1.25v17.5c0 .69-.56 1.25-1.25 1.25h-22.522c-.69 0-1.25-.56-1.25-1.25z" style="fill:none;stroke-width:.0520829" transform="translate(-253.215 -405.577)"/>
+ <path style="color:#000;clip-rule:evenodd;fill:#000;fill-rule:evenodd;stroke-width:.0626411;stroke-miterlimit:3.86369;-inkscape-stroke:none" d="M1.516 2.36v2.122h7.699V7h.521V4H2.037V2.842h19.664v1.047l1.145 3.765v4.838L22 12.215v.512l1.365.447V7.586l-1.144-3.764V2.36H1.516z"/>
+</svg>
