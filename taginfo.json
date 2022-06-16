@@ -168,12 +168,12 @@
     },
     {
       "key": "network",
-      "value": "CA:NB:primary",
+      "value": "CA:NB:tertiary",
       "object_types": [
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_ca_nb_primary.svg"
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_ca_nb.svg"
     },
     {
       "key": "network",
@@ -182,16 +182,16 @@
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_ca_nb_secondary.svg"
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_ca_nb.svg"
     },
     {
       "key": "network",
-      "value": "CA:NB:tertiary",
+      "value": "CA:NB:primary",
       "object_types": [
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_ca_nb_tertiary.svg"
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_ca_nb.svg"
     },
     {
       "key": "network",
