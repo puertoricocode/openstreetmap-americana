@@ -1,11 +1,4 @@
-export const background = {
-  stops: [
-    [6, "rgba(253, 251, 242, 1)"],
-    [10, "rgba(253, 251, 242, 1)"],
-    [14, "rgba(250, 246, 242, 1)"],
-    [15, "rgba(250, 246, 242, 1)"],
-  ],
-};
+export const backgroundFill = "#faf6f2";
 
 export const waterFill = "hsl(211, 42%, 70%)";
 export const waterLine = "hsl(211, 73%, 78%)";

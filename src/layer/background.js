@@ -8,11 +8,13 @@ import * as Color from "../constants/color.js";
   This is the base color of the map.
 */
 
+let backgroundColor = Color.backgroundFill;
+
 export const base = {
   id: "background",
   type: "background",
   paint: {
-    "background-color": Color.background,
+    "background-color": backgroundColor,
   },
   layout: { visibility: "visible" },
 };
@@ -24,7 +26,7 @@ export const pierArea = {
   "source-layer": "transportation",
   filter: ["all", ["==", "class", "pier"], ["==", "$type", "Polygon"]],
   paint: {
-    "fill-color": Color.background,
+    "fill-color": backgroundColor,
   },
   layout: { visibility: "visible" },
 };
@@ -36,7 +38,7 @@ export const pierLine = {
   "source-layer": "transportation",
   filter: ["all", ["==", "class", "pier"], ["==", "$type", "LineString"]],
   paint: {
-    "line-color": Color.background,
+    "line-color": backgroundColor,
     "line-width": {
       base: 1.7,
       stops: [
