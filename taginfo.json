@@ -2826,6 +2826,114 @@
     },
     {
       "key": "network",
+      "value": "US:KS:Clay",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Cowley",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Decatur",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Douglas",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Harvey",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Leavenworth",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Linn",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:McPherson",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Ness",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Rawlins",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Riley",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:KS:Sheridan",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_blue_yellow_2.svg"
+    },
+    {
+      "key": "network",
       "value": "US:KY",
       "object_types": [
         "relation"
