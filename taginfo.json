@@ -11300,6 +11300,22 @@
     },
     {
       "key": "network",
+      "value": "AX:main",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "AX:province",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
       "value": "ba:Autoceste",
       "object_types": [
         "relation"
@@ -11690,40 +11706,6 @@
     },
     {
       "key": "network",
-      "value": "SI:AC",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_hexagon_wide_green.svg"
-    },
-    {
-      "key": "network",
-      "value": "sk:national",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields."
-    },
-    {
-      "key": "network",
-      "value": "ua:international",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields."
-    },
-    {
-      "key": "network",
-      "value": "XK:motorway",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_hexagon_wide_green.svg"
-    },
-    {
-      "key": "network",
       "value": "SE:RV",
       "object_types": [
         "relation"
@@ -11913,6 +11895,40 @@
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "SI:AC",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_hexagon_wide_green.svg"
+    },
+    {
+      "key": "network",
+      "value": "sk:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "ua:international",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "XK:motorway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_hexagon_wide_green.svg"
     },
     {
       "key": "network",
