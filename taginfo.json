@@ -8623,6 +8623,60 @@
     },
     {
       "key": "network",
+      "value": "US:TN:primary",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_us_tn_primary.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:TN:primary:Business",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields modified by BUS banners.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_us_tn_primary.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:TN:primary:Bypass",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields modified by BYP banners.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_us_tn_primary.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:TN:secondary",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_us_tn_secondary.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:TN:secondary:Alternate",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields modified by ALT banners.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_us_tn_secondary.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:TN:secondary:Truck",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields modified by TRK banners.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_us_tn_secondary.svg"
+    },
+    {
+      "key": "network",
       "value": "US:TN:McMinn",
       "object_types": [
         "relation"

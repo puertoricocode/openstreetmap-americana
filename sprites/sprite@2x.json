@@ -1007,101 +1007,115 @@
     "y": 122,
     "pixelRatio": 2
   },
+  "shield40_us_tn_primary": {
+    "width": 50,
+    "height": 40,
+    "x": 644,
+    "y": 122,
+    "pixelRatio": 2
+  },
+  "shield40_us_tn_secondary": {
+    "width": 50,
+    "height": 40,
+    "x": 694,
+    "y": 122,
+    "pixelRatio": 2
+  },
   "shield40_us_ut_2": {
     "width": 40,
     "height": 40,
-    "x": 644,
+    "x": 744,
     "y": 122,
     "pixelRatio": 2
   },
   "shield40_us_ut_3": {
     "width": 50,
     "height": 40,
-    "x": 684,
+    "x": 784,
     "y": 122,
     "pixelRatio": 2
   },
   "shield40_us_va_2": {
     "width": 40,
     "height": 40,
-    "x": 734,
+    "x": 834,
     "y": 122,
     "pixelRatio": 2
   },
   "shield40_us_va_3": {
     "width": 50,
     "height": 40,
-    "x": 774,
+    "x": 874,
     "y": 122,
     "pixelRatio": 2
   },
   "shield40_us_vt_2": {
     "width": 40,
     "height": 40,
-    "x": 824,
+    "x": 924,
     "y": 122,
     "pixelRatio": 2
   },
   "shield40_us_vt_3": {
     "width": 52,
     "height": 40,
-    "x": 864,
+    "x": 964,
     "y": 122,
     "pixelRatio": 2
   },
   "shield40_us_wa": {
     "width": 40,
     "height": 40,
-    "x": 916,
+    "x": 1016,
     "y": 122,
     "pixelRatio": 2
   },
   "shield40_us_wi_2": {
     "width": 40,
     "height": 40,
-    "x": 956,
+    "x": 1056,
     "y": 122,
     "pixelRatio": 2
   },
   "shield40_us_wi_3": {
     "width": 52,
     "height": 40,
-    "x": 996,
-    "y": 122,
+    "x": 524,
+    "y": 162,
     "pixelRatio": 2
   },
   "shield40_us_wi_rustic": {
     "width": 42,
     "height": 40,
-    "x": 1048,
-    "y": 122,
+    "x": 576,
+    "y": 162,
     "pixelRatio": 2
   },
   "airport": {
     "width": 32,
     "height": 32,
-    "x": 524,
+    "x": 618,
     "y": 162,
     "pixelRatio": 2
   },
   "dot_city": {
     "width": 32,
     "height": 32,
-    "x": 556,
+    "x": 650,
     "y": 162,
     "pixelRatio": 2
   },
   "military_airport": {
     "width": 32,
     "height": 32,
-    "x": 588,
+    "x": 682,
     "y": 162,
     "pixelRatio": 2
   },
   "oneway": {
     "width": 48,
     "height": 24,
-    "x": 620,
+    "x": 714,
     "y": 162,
     "pixelRatio": 2
   }
