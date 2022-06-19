@@ -24,10 +24,10 @@ const iconColor = [
   "match",
   ["get", "class"],
   ["bar", "beer"],
-  Color.shields.black,
-  "hospital",
-  Color.shields.red,
-  Color.shields.black,
+  Color.poi.consumer,
+  ["hospital"],
+  Color.poi.infrastructure,
+  Color.poi.infrastructure,
 ];
 
 const labelPaint = {

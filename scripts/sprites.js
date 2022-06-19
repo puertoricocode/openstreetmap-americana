@@ -10,17 +10,17 @@ import { Sprites } from "@basemaps/sprites";
 await fs.mkdir("./dist/sprites/", { recursive: true });
 await fs.rm("./dist/sdf/", { force: true, recursive: true });
 
-async function copyDir(src,dest) {
-  const entries = await fs.readdir(src, {withFileTypes: true});
+async function copyDir(src, dest) {
+  const entries = await fs.readdir(src, { withFileTypes: true });
   await fs.mkdir(dest);
-  for(let entry of entries) {
-      const srcPath = path.join(src, entry.name);
-      const destPath = path.join(dest, entry.name);
-      if(entry.isDirectory()) {
-          await copyDir(srcPath, destPath);
-      } else {
-          await fs.copyFile(srcPath, destPath);
-      }
+  for (let entry of entries) {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+    if (entry.isDirectory()) {
+      await copyDir(srcPath, destPath);
+    } else {
+      await fs.copyFile(srcPath, destPath);
+    }
   }
 }
 

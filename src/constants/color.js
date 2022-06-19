@@ -20,6 +20,14 @@ export const airportOutline = "hsl(250, 41%, 79%)";
 export const airportRunway = "hsl(250, 41%, 79%)";
 export const airportLabel = "hsl(250, 71%, 29%)";
 
+export const poi = {
+  infrastructure: "blue",
+  consumer: "hsl(35, 97%, 39%)",
+  //outdoor:
+  //attraction:
+  transportation: "hsl(270, 71%, 29%)",
+};
+
 export const tollRoadHue = 48;
 
 export const shields = {

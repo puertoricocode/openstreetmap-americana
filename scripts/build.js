@@ -16,7 +16,7 @@ export async function build(updateHook, buildOptions = {}) {
     },
   };
 
-//  copy("src/sdf", "dist/sdf");
+  //  copy("src/sdf", "dist/sdf");
 
   await mkdir("dist", { recursive: true });
   return await Promise.all([
