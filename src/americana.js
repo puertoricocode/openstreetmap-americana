@@ -477,7 +477,7 @@ map.on("styledata", function () {
   ShieldDef.loadShields(map.style.imageManager.images);
 });
 
-["hospital_cross", "martini_glass"].forEach((icon) =>
+["hospital_cross", "martini_glass", "square_dot"].forEach((icon) =>
   map.loadImage(`./sdf/${icon}.png`, (error, image) => {
     if (error) throw error;
     // add image to the active style and make it SDF-enabled

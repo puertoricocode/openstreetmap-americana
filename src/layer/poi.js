@@ -10,7 +10,7 @@ const poiIcon = [
   "martini-glass",
   "hospital",
   "hospital-cross",
-  "", //TODO add icon for generic POI
+  "square_dot", //icon for generic POI
 ];
 
 const poiFilter = [
