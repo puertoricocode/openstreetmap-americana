@@ -6780,8 +6780,8 @@
       "object_types": [
         "relation"
       ],
-      "description": "Roads carrying routes in this network are marked by shields modified by NCM banners.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_white_pink_2.svg"
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_white_pink_3.svg"
     },
     {
       "key": "network",
