@@ -2959,15 +2959,6 @@
     },
     {
       "key": "network",
-      "value": "US:KY:Parkway",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_us_ky_parkway.svg"
-    },
-    {
-      "key": "network",
       "value": "US:LA",
       "object_types": [
         "relation"
@@ -8257,6 +8248,14 @@
     },
     {
       "key": "network",
+      "value": "US:PA:Allegheny:Belt",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
       "value": "US:RI",
       "object_types": [
         "relation"
@@ -8827,6 +8826,15 @@
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields modified by EXPR, LOOP banners."
+    },
+    {
+      "key": "network",
+      "value": "US:TX:Montgomery:MCTRA",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_home_down_blue_red_3.svg"
     },
     {
       "key": "network",
@@ -11986,11 +11994,30 @@
     },
     {
       "key": "network",
-      "value": "US:PA:Allegheny:Belt",
+      "value": "US:KY:Parkway",
       "object_types": [
         "relation"
       ],
-      "description": "Roads carrying routes in this network are marked by shields."
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_us_ky_parkway.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:TX:Fort_Bend:FBCTRA",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_us_tx_fbctra.svg"
+    },
+    {
+      "key": "network",
+      "value": "US:TX:Harris:HCTRA",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield40_pentagon_purple_yellow_3.svg"
     }
   ]
 }
