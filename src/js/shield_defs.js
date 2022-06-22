@@ -3045,6 +3045,24 @@ export function loadShields(shieldImages) {
     shields["US:KY:AA"]
   );
 
+  shields["US:NY:Parkway"] = {
+    refsByWayName: {
+      "Taconic State Parkway": "TSP",
+      "Bear Mountain State Parkway": "BMP",
+      "Saw Mill River Parkway": "SMP",
+      "Sprain Brook Parkway": "SBP",
+      "Bronx River Parkway": "BRP",
+      "Hutchinson River Parkway": "HRP",
+      "Cross County Parkway": "CCP",
+    },
+    ...shields["US:NY"],
+    textColor: Color.shields.white,
+    backgroundImage: [
+      shieldImages.shield40_us_ny_parkway_2,
+      shieldImages.shield40_us_ny_parkway_3,
+    ],
+  };
+
   shields["US:MI"].overrideByRef = {
     185: {
       backgroundImage: shieldImages.shield40_diamond_brown,
