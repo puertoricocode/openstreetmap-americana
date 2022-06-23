@@ -10,7 +10,7 @@ export const standardPalette = {
   white: "white",
   yellow: "#ffcd00", // Pantone 116
   yellow_green: "#c4d600", // Pantone 382
-}
+};
 
 export const backgroundFill = "#faf6f2";
 
