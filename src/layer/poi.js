@@ -9,7 +9,9 @@ const poiIcon = [
   "beer",
   "martini-glass",
   "hospital",
-  "hospital-cross",
+  "health-cross",
+  "parking",
+  "p",
   "square_dot", //icon for generic POI
 ];
 
@@ -18,6 +20,7 @@ const poiFilter = [
   ["==", ["get", "class"], "bar"],
   ["==", ["get", "class"], "beer"],
   ["==", ["get", "class"], "hospital"],
+  ["==", ["get", "class"], "parking"],
 ];
 
 const iconColor = [
@@ -25,7 +28,7 @@ const iconColor = [
   ["get", "class"],
   ["bar", "beer"],
   Color.poi.consumer,
-  ["hospital"],
+  ["hospital", "parking"],
   Color.poi.infrastructure,
   Color.poi.infrastructure,
 ];
@@ -34,9 +37,9 @@ const labelPaint = {
   "text-halo-color": "#ffffff",
   "icon-halo-color": "#ffffff",
   "text-halo-width": 1.5,
-  "icon-halo-width": 1.5,
+  "icon-halo-width": 0.4,
   "text-halo-blur": 1,
-  "icon-halo-blur": 1,
+  "icon-halo-blur": 0.2,
   "text-color": iconColor,
   "icon-color": iconColor,
 };
@@ -56,7 +59,7 @@ export const poi = {
       ],
     },
     "icon-image": poiIcon,
-    "icon-size": 1,
+    "icon-size": 0.5,
     "text-field": label.name_en,
     "text-anchor": "bottom",
     "text-variable-anchor": [
@@ -71,7 +74,7 @@ export const poi = {
     "icon-optional": false,
     "text-max-width": 8,
     "icon-padding": 0,
-    "text-padding": 1,
+    "text-padding": 0,
     "icon-allow-overlap": false,
   },
   source: "openmaptiles",

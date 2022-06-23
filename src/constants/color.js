@@ -1,3 +1,17 @@
+export const standardPalette = {
+  black: "black",
+  blue: "#003f87", // Pantone 294
+  brown: "#693f23", // Pantone 469
+  green: "#006747", // Pantone 342
+  orange: "#f38f00", // Pantone 152
+  pink: "#df4661", // Pantone 198
+  purple: "#6d2077", // Pantone 259
+  red: "#bf2033", // Pantone 187
+  white: "white",
+  yellow: "#ffcd00", // Pantone 116
+  yellow_green: "#c4d600", // Pantone 382
+}
+
 export const backgroundFill = "#faf6f2";
 
 export const waterFill = "hsl(211, 42%, 70%)";
@@ -21,25 +35,14 @@ export const airportRunway = "hsl(250, 41%, 79%)";
 export const airportLabel = "hsl(250, 71%, 29%)";
 
 export const poi = {
-  infrastructure: "blue",
-  consumer: "hsl(35, 97%, 39%)",
+  infrastructure: standardPalette.blue,
+  consumer: standardPalette.red,
+  //"hsl(35, 97%, 39%)",
   //outdoor:
   //attraction:
   transportation: "hsl(270, 71%, 29%)",
 };
 
-export const tollRoadHue = 48;
+export const shields = standardPalette;
 
-export const shields = {
-  black: "black",
-  blue: "#003f87", // Pantone 294
-  brown: "#693f23", // Pantone 469
-  green: "#006747", // Pantone 342
-  orange: "#f38f00", // Pantone 152
-  pink: "#df4661", // Pantone 198
-  purple: "#6d2077", // Pantone 259
-  red: "#bf2033", // Pantone 187
-  white: "white",
-  yellow: "#ffcd00", // Pantone 116
-  yellow_green: "#c4d600", // Pantone 382
-};
+export const tollRoadHue = 48;
