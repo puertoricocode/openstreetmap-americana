@@ -2801,6 +2801,14 @@
     },
     {
       "key": "network",
+      "value": "US:IL:Cook:Chicago:Skyway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
       "value": "US:IN",
       "object_types": [
         "relation"
