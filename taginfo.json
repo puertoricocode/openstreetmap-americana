@@ -9464,7 +9464,7 @@
     },
     {
       "key": "network",
-      "value": "US:WI:Eau Claire",
+      "value": "US:WI:Eau_Claire",
       "object_types": [
         "relation"
       ],
@@ -9480,7 +9480,7 @@
     },
     {
       "key": "network",
-      "value": "US:WI:Fond du Lac",
+      "value": "US:WI:Fond_du_Lac",
       "object_types": [
         "relation"
       ],
@@ -9512,7 +9512,7 @@
     },
     {
       "key": "network",
-      "value": "US:WI:Green Lake",
+      "value": "US:WI:Green_Lake",
       "object_types": [
         "relation"
       ],
@@ -9576,7 +9576,7 @@
     },
     {
       "key": "network",
-      "value": "US:WI:La Crosse",
+      "value": "US:WI:La_Crosse",
       "object_types": [
         "relation"
       ],
@@ -9768,7 +9768,7 @@
     },
     {
       "key": "network",
-      "value": "US:WI:Saint Croix",
+      "value": "US:WI:Saint_Croix",
       "object_types": [
         "relation"
       ],
