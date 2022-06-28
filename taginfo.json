@@ -10793,6 +10793,14 @@
     },
     {
       "key": "network",
+      "value": "ir:freeways",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
       "value": "JP:E",
       "object_types": [
         "relation"
