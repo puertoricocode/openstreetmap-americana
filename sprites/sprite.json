@@ -1126,31 +1126,38 @@
     "y": 81,
     "pixelRatio": 1
   },
+  "shield40_ve_t": {
+    "width": 22,
+    "height": 20,
+    "x": 425,
+    "y": 81,
+    "pixelRatio": 1
+  },
   "airport": {
     "width": 16,
     "height": 16,
-    "x": 425,
+    "x": 447,
     "y": 81,
     "pixelRatio": 1
   },
   "dot_city": {
     "width": 16,
     "height": 16,
-    "x": 441,
+    "x": 463,
     "y": 81,
     "pixelRatio": 1
   },
   "military_airport": {
     "width": 16,
     "height": 16,
-    "x": 457,
+    "x": 479,
     "y": 81,
     "pixelRatio": 1
   },
   "oneway": {
     "width": 24,
     "height": 12,
-    "x": 473,
+    "x": 495,
     "y": 81,
     "pixelRatio": 1
   }
