@@ -1,6 +1,5 @@
 import { copyFile, mkdir } from "fs/promises";
 
-import copy from "fs-extra";
 import esbuild from "esbuild";
 
 const isMain =
@@ -15,8 +14,6 @@ export async function build(updateHook, buildOptions = {}) {
       updateHook();
     },
   };
-
-  //  copy("src/sdf", "dist/sdf");
 
   await mkdir("dist", { recursive: true });
   return await Promise.all([

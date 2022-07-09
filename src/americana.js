@@ -477,14 +477,6 @@ map.on("styledata", function () {
   ShieldDef.loadShields(map.style.imageManager.images);
 });
 
-["health_cross", "martini_glass", "p", "square_dot"].forEach((icon) =>
-  map.loadImage(`./sdf/${icon}.png`, (error, image) => {
-    if (error) throw error;
-    // add image to the active style and make it SDF-enabled
-    map.addImage(icon.replace("_", "-"), image, { sdf: true });
-  })
-);
-
 map.on("styleimagemissing", function (e) {
   Shield.missingIconHandler(map, e);
 });

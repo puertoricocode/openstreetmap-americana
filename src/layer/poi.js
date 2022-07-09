@@ -5,14 +5,14 @@ const poiIcon = [
   "match",
   ["get", "class"],
   "bar",
-  "martini-glass",
+  "poi_martini_glass",
   "beer",
-  "martini-glass",
+  "poi_martini_glass",
   "hospital",
-  "health-cross",
+  "poi_health_cross",
   "parking",
-  "p",
-  "square_dot", //icon for generic POI
+  "poi_p",
+  "poi_square_dot", //icon for generic POI
 ];
 
 const poiFilter = [
@@ -41,7 +41,6 @@ const labelPaint = {
   "text-halo-blur": 1,
   "icon-halo-blur": 0.2,
   "text-color": iconColor,
-  "icon-color": iconColor,
 };
 
 export const poi = {
