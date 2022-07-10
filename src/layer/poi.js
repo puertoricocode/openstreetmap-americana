@@ -16,23 +16,19 @@ const poiIcon = [
 ];
 
 const poiFilter = [
-  "any",
-  ["==", ["get", "class"], "bar"],
-  ["==", ["get", "class"], "beer"],
-  ["==", ["get", "class"], "hospital"],
-  ["==", ["get", "class"], "parking"],
-];
-
-const poiZoom = [
-  "match",
-  ["get", "class"],
-  "hospital",
-  15,
-  ["bar", "beer"],
-  16,
-  "parking",
-  17,
-  18,
+  ">=",
+  ["zoom"],
+  [
+    "match",
+    ["get", "class"],
+    "hospital",
+    15,
+    ["bar", "beer"],
+    16,
+    "parking",
+    17,
+    18,
+  ],
 ];
 
 const iconColor = [
@@ -89,6 +85,5 @@ export const poi = {
     "icon-allow-overlap": false,
   },
   source: "openmaptiles",
-  minzoom: 15,
   "source-layer": "poi",
 };
