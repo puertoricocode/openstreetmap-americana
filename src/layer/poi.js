@@ -4,9 +4,7 @@ import * as Color from "../constants/color.js";
 const poiIcon = [
   "match",
   ["get", "class"],
-  "bar",
-  "poi_martini_glass",
-  "beer",
+  ["bar", "beer"],
   "poi_martini_glass",
   "hospital",
   "poi_health_cross",
