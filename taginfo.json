@@ -8813,6 +8813,14 @@
     },
     {
       "key": "network",
+      "value": "US:TX:NTTA",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
       "value": "US:TX:Toll",
       "object_types": [
         "relation"
@@ -8822,14 +8830,6 @@
     {
       "key": "network",
       "value": "US:TX:CTRMA",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields."
-    },
-    {
-      "key": "network",
-      "value": "US:TX:NTTA",
       "object_types": [
         "relation"
       ],
