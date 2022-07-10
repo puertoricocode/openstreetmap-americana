@@ -26,13 +26,13 @@ const poiFilter = [
 const poiZoom = [
   "match",
   ["get", "class"],
-  ["hospital"],
+  "hospital",
   15,
   ["bar", "beer"],
   16,
-  ["parking"],
+  "parking",
   17,
-  18
+  18,
 ];
 
 const iconColor = [
