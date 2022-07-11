@@ -12,37 +12,42 @@ export const standardPalette = {
   yellow_green: "#c4d600", // Pantone 382
 };
 
+export const hue = {
+  tollRoad: 48,
+  park: 136,
+  water: 211,
+  transport: 250,
+  borderCasing: 281,
+};
+
 export const backgroundFill = "#faf6f2";
 
-export const waterFill = "hsl(211, 42%, 70%)";
-export const waterLine = "hsl(211, 73%, 78%)";
+export const waterFill = `hsl(${hue.water}, 42%, 70%)`;
+export const waterLine = `hsl(${hue.water}, 73%, 78%)`;
 export const waterIntermittent = "hsl(205, 89%, 83%)";
-export const waterLabel = "hsl(211, 43%, 28%)";
+export const waterLabel = `hsl(${hue.water}, 43%, 28%)`;
 
 export const hueBorder = 0;
-export const hueBorderCasing = 281;
 
 export const border = "hsl(0, 2%, 47%)";
-export const borderCasing = `hsl(${hueBorderCasing}, 35%, 86%)`;
+export const borderCasing = `hsl(${hue.borderCasing}, 35%, 86%)`;
 
-export const parkFill = "hsl(136, 41%, 89%)";
-export const parkOutline = "hsl(136, 41%, 79%)";
-export const parkLabel = "hsl(136, 71%, 29%)";
+export const parkFill = `hsl(${hue.park}, 41%, 89%)`;
+export const parkOutline = `hsl(${hue.park}, 41%, 79%)`;
+export const parkLabel = `hsl(${hue.park}, 71%, 29%)`;
 
-export const airportFill = "hsl(250, 41%, 95%)";
-export const airportOutline = "hsl(250, 41%, 79%)";
-export const airportRunway = "hsl(250, 41%, 79%)";
-export const airportLabel = "hsl(250, 71%, 29%)";
+export const airportFill = `hsl(${hue.transport}, 41%, 95%)`;
+export const airportOutline = `hsl(${hue.transport}, 41%, 79%)`;
+export const airportRunway = `hsl(${hue.transport}, 41%, 79%)`;
+export const airportLabel = `hsl(${hue.transport}, 71%, 29%)`;
 
 export const poi = {
   infrastructure: standardPalette.blue,
-  consumer: standardPalette.red,
+  consumer: "#c05121",
   //"hsl(35, 97%, 39%)",
   //outdoor:
   //attraction:
-  transportation: "hsl(270, 71%, 29%)",
+  transportation: `hsl(${hue.transport}, 71%, 29%)`,
 };
 
 export const shields = standardPalette;
-
-export const tollRoadHue = 48;

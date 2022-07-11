@@ -254,7 +254,7 @@ class MotorwayToll extends Motorway {
   constructor() {
     super();
     this.toll = true;
-    this.hue = Color.tollRoadHue;
+    this.hue = Color.hue.tollRoad;
 
     this.fillColor = [
       "interpolate",
@@ -341,7 +341,7 @@ class TrunkToll extends Trunk {
   constructor() {
     super();
     this.toll = true;
-    this.hue = Color.tollRoadHue;
+    this.hue = Color.hue.tollRoad;
 
     this.fillColor = `hsl(${this.hue}, 77%, 50%)`;
     this.casingColor = trunkCasingColor(this.hue);
@@ -491,7 +491,7 @@ class PrimaryToll extends Primary {
   constructor() {
     super();
     this.toll = true;
-    this.hue = Color.tollRoadHue;
+    this.hue = Color.hue.tollRoad;
 
     this.fillColor = tollRoadFillColor(
       this.hue,
@@ -570,7 +570,7 @@ class SecondaryToll extends Secondary {
   constructor() {
     super();
     this.toll = true;
-    this.hue = Color.tollRoadHue;
+    this.hue = Color.hue.tollRoad;
 
     this.fillColor = tollRoadFillColor(
       this.hue,
@@ -649,7 +649,7 @@ class TertiaryToll extends Tertiary {
   constructor() {
     super();
     this.toll = true;
-    this.hue = Color.tollRoadHue;
+    this.hue = Color.hue.tollRoad;
 
     this.fillColor = tollRoadFillColor(
       this.hue,
@@ -722,7 +722,7 @@ class MinorToll extends Minor {
   constructor() {
     super();
     this.toll = true;
-    this.hue = Color.tollRoadHue;
+    this.hue = Color.hue.tollRoad;
 
     this.fillColor = tollRoadFillColor(this.hue, this.minZoomFill);
     this.casingColor = roadCasingColor(this.hue, this.minZoomCasing);
@@ -782,7 +782,7 @@ class ServiceToll extends Service {
   constructor() {
     super();
     this.toll = true;
-    this.hue = Color.tollRoadHue;
+    this.hue = Color.hue.tollRoad;
 
     // Fill color gets interpolated as a fade from light to dark between this
     // level's introduction and next road-level introduction.

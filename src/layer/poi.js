@@ -10,7 +10,7 @@ const poiIcon = [
   "poi_health_cross",
   "parking",
   "poi_p",
-  "poi_square_dot", //icon for generic POI
+  "poi_square_dot", //icon for generic POI, not currently used
 ];
 
 const poiFilter = [
@@ -56,6 +56,7 @@ export const poi = {
   filter: poiFilter,
   layout: {
     "text-font": ["Metropolis Light"],
+    "text-optional": true, //TODO: disable this for generic (square dot) POIs
     "text-size": {
       base: 1.0,
       stops: [
@@ -66,18 +67,11 @@ export const poi = {
     "icon-image": poiIcon,
     "icon-size": 0.5,
     "text-field": label.name_en,
-    "text-anchor": "bottom",
-    "text-variable-anchor": [
-      "bottom",
-      "bottom-right",
-      "bottom-left",
-      "right",
-      "left",
-    ],
+    "text-variable-anchor": ["left", "right", "bottom"],
     "text-justify": "auto",
-    "text-radial-offset": 0.8,
+    "text-radial-offset": 0.75,
     "icon-optional": false,
-    "text-max-width": 8,
+    "text-max-width": 5,
     "icon-padding": 0,
     "text-padding": 0,
     "icon-allow-overlap": false,
