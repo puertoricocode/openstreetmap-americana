@@ -1,59 +1,41 @@
 import * as label from "../constants/label.js";
 import * as Color from "../constants/color.js";
 
-const poiIcon = [
-  "match",
-  ["get", "class"],
-  ["bar", "beer"],
-  "poi_martini_glass",
-  "hospital",
-  "poi_health_cross",
-  "parking",
-  "poi_p",
-  "poi_square_dot", //icon for generic POI, not currently used
-];
-
-const poiFilter = [
-  ">=",
-  ["zoom"],
-  [
-    "match",
-    ["get", "class"],
-    "hospital",
-    15,
-    ["bar", "beer"],
-    16,
-    "parking",
-    17,
-    18,
-  ],
-];
-
-const iconColor = [
-  "match",
-  ["get", "class"],
-  ["bar", "beer"],
-  Color.poi.consumer,
-  ["hospital", "parking"],
-  Color.poi.infrastructure,
-  Color.poi.infrastructure,
-];
-
-const labelPaint = {
-  "text-halo-color": "#ffffff",
-  "icon-halo-color": "#ffffff",
-  "text-halo-width": 1.5,
-  "icon-halo-width": 0.4,
-  "text-halo-blur": 1,
-  "icon-halo-blur": 0.2,
-  "text-color": iconColor,
-};
-
 export const poi = {
   id: "poi",
   type: "symbol",
-  paint: labelPaint,
-  filter: poiFilter,
+  paint: {
+    "text-halo-color": "#ffffff",
+    "icon-halo-color": "#ffffff",
+    "text-halo-width": 1.5,
+    "icon-halo-width": 0.4,
+    "text-halo-blur": 1,
+    "icon-halo-blur": 0.2,
+    "text-color": [
+      "match",
+      ["get", "class"],
+      ["bar", "beer"],
+      Color.poi.consumer,
+      ["hospital", "parking"],
+      Color.poi.infrastructure,
+      Color.poi.infrastructure,
+    ],
+  },
+  filter: [
+    ">=",
+    ["zoom"],
+    [
+      "match",
+      ["get", "class"],
+      "hospital",
+      15,
+      ["bar", "beer"],
+      16,
+      "parking",
+      17,
+      18,
+    ],
+  ],
   layout: {
     "text-font": ["Metropolis Light"],
     "icon-optional": [
@@ -70,7 +52,17 @@ export const poi = {
         [17, 12],
       ],
     },
-    "icon-image": poiIcon,
+    "icon-image": [
+      "match",
+      ["get", "class"],
+      ["bar", "beer"],
+      "poi_martini_glass",
+      "hospital",
+      "poi_health_cross",
+      "parking",
+      "poi_p",
+      "poi_square_dot", //icon for generic POI, not currently used
+    ],
     "icon-size": 0.5,
     "text-field": label.name_en,
     "text-variable-anchor": ["left", "right", "bottom"],
