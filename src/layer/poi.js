@@ -56,7 +56,7 @@ export const poi = {
   filter: poiFilter,
   layout: {
     "text-font": ["Metropolis Light"],
-    "text-optional": true, //TODO: disable this for generic (square dot) POIs
+    "icon-optional": ["match", ["get", "class"], ["hospital", "parking"], true, false],
     "text-size": {
       base: 1.0,
       stops: [
