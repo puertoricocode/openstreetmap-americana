@@ -12229,6 +12229,14 @@
     },
     {
       "key": "network",
+      "value": "FR:N-road",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
       "value": "FR:A-road",
       "object_types": [
         "relation"
