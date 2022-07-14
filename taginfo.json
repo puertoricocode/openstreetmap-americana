@@ -11909,6 +11909,31 @@
     },
     {
       "key": "network",
+      "value": "KR:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield_kr_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "KR:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "KR:local",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
       "value": "my:federal",
       "object_types": [
         "relation"
@@ -11979,28 +12004,12 @@
     },
     {
       "key": "network",
-      "value": "KR:expressway",
+      "value": "TR:motorway",
       "object_types": [
         "relation"
       ],
       "description": "Roads carrying routes in this network are marked by shields.",
-      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield_kr_expressway_2.svg"
-    },
-    {
-      "key": "network",
-      "value": "KR:national",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields."
-    },
-    {
-      "key": "network",
-      "value": "KR:local",
-      "object_types": [
-        "relation"
-      ],
-      "description": "Roads carrying routes in this network are marked by shields."
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/icons/shield_hex_vert_orange.svg"
     },
     {
       "key": "network",
