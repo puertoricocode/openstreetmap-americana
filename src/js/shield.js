@@ -258,7 +258,7 @@ function getShieldDef(routeDef) {
   }
 
   var shieldDef = ShieldDef.shields[routeDef.network];
-
+console.log("getShieldDef:%s", routeDef.network);
   if (shieldDef == null) {
     // Default to plain black text with halo and no background shield
     return isValidRef(routeDef.ref) ? ShieldDef.shields["default"] : null;
@@ -280,7 +280,7 @@ function getShieldDef(routeDef) {
   ) {
     return null;
   }
-
+console.log("getShieldDef:%s:OK", routeDef.network);
   return shieldDef;
 }
 
@@ -343,6 +343,7 @@ function generateShieldCtx(id) {
     ctx.drawImage(colorCtx.canvas, 0, 0);
   } else {
     // Draw the shield
+	console.log("Drawing shield [%s]...", routeDef.network)
     drawShield(ctx, shieldDef, routeDef);
   }
 

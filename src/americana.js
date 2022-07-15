@@ -20,12 +20,17 @@ import * as lyrBuilding from "./layer/building.js";
 import * as lyrHighwayExit from "./layer/highway_exit.js";
 import * as lyrFerry from "./layer/ferry.js";
 
+/*
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+*/
+
 import * as search from "./search.js";
 
+/*
 import SampleControl from "openmapsamples-maplibre/OpenMapSamplesControl.js";
 import { default as OpenMapTilesSamples } from "openmapsamples/samples/OpenMapTiles/index.js";
+*/
 
 /*
  This is a list of the layers in the Americana style, from bottom to top.
@@ -465,7 +470,7 @@ var map = (window.map = new maplibregl.Map({
   hash: true,
   antialias: true,
   style: style,
-  center: [-94, 40.5], // starting position [lng, lat]
+  center: [-66.108685, 17.972158], // starting position [lng, lat]
   zoom: 4, // starting zoom
   attributionControl: false,
 }));
@@ -498,11 +503,5 @@ if (config.ATTRIBUTION_LOGO != undefined) {
 map.addControl(new search.PhotonSearchControl(), "top-left");
 map.addControl(new maplibregl.NavigationControl(), "top-left");
 
-// Add our sample data.
-let sampleControl = new SampleControl({ permalinks: true });
-OpenMapTilesSamples.forEach((sample, i) => {
-  sampleControl.addSample(sample);
-});
-map.addControl(sampleControl, "bottom-left");
 
 map.getCanvas().focus();

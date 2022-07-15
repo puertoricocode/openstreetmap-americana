@@ -1,8 +1,8 @@
 "use strict";
 
-import * as maplibregl from "maplibre-gl";
-
-import "./search.css";
+//Breaks in Safari
+//import * as maplibregl from "maplibre-gl";
+//import "./search.css";
 
 var searchInput;
 var liveResults;

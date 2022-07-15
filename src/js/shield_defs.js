@@ -1986,6 +1986,87 @@ export function loadShields(shieldImages) {
   };
   shields["US:PA:Allegheny:Belt"] = {}; // See ref-specific cases below
 
+
+  // Puerto Rico (Testing...)
+  shields["US:PR"] = {
+    backgroundImage: [shieldImages.shield_us_or_2, shieldImages.shield_us_or_3],
+    textColor: Color.shields.black,
+    padding: {
+      left: 3,
+      right: 3,
+      top: 4,
+      bottom: 6.5,
+    },
+  };
+
+  shields["US:PR:1"] = {
+    backgroundImage: shieldImages.shield_us_pr_primary,
+    textColor: Color.shields.black,
+    padding: {
+  	left: 2,
+  	right: 4.5,
+  	top: 6,
+  	bottom: 4,
+    },
+  };
+
+  shields["US:PR:PRIMARY2"] = {
+    backgroundImage: shieldImages.shield_us_pr_primary,
+    textColor: Color.shields.black,
+    padding: {
+  	left: 2,
+  	right: 4.5,
+  	top: 6,
+  	bottom: 4,
+    },
+  };
+
+  shields["US:PR:primary"] = roundedRectShield(
+    Color.shields.white,
+    Color.shields.black
+  );
+
+  shields["US:PR:primary2"] = {
+    backgroundImage: shieldImages.shield_us_pr_primary,
+    textColor: Color.shields.white,
+    padding: {
+  	left: 2,
+  	right: 4.5,
+  	top: 6,
+  	bottom: 4,
+    },
+  };
+  shields["US:PR:urban_primary"] = {
+    backgroundImage: shieldImages.shield_us_pr_primary_urban,
+    textColor: Color.shields.black,
+    padding: {
+  	left: 2,
+  	right: 4.5,
+  	top: 6,
+  	bottom: 4,
+    },
+  };
+  shields["US:PR:SECONDARY"] = {
+    backgroundImage: shieldImages.shield_us_pr_secondary,
+    textColor: Color.shields.black,
+    padding: {
+  	left: 2,
+  	right: 4.5,
+  	top: 6,
+  	bottom: 4,
+    },
+  };
+  shields["US:PR:TERTIARY"] = {
+    backgroundImage: shieldImages.shield_us_pr_tertiary,
+    textColor: Color.shields.black,
+    padding: {
+  	left: 2,
+  	right: 4.5,
+  	top: 6,
+  	bottom: 4,
+    },
+  };
+
   // Rhode Island
   shields["US:RI"] = roundedRectShield(
     Color.shields.white,
