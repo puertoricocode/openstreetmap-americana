@@ -131,7 +131,7 @@ function baseRoadLayer(
 
 //Base road class
 class Road {
-  fill = function () {
+  fill() {
     var layer = baseRoadLayer(
       this.highwayClass,
       "fill",
@@ -148,7 +148,7 @@ class Road {
     }
     return layer;
   };
-  casing = function () {
+  casing() {
     var layer = baseRoadLayer(
       this.highwayClass,
       "casing",
@@ -172,7 +172,7 @@ class Road {
     }
     return layer;
   };
-  surface = function () {
+  surface() {
     var layer = baseRoadLayer(
       this.highwayClass,
       "surface",
